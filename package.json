@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "@vue/compiler-sfc": "^3.2.31",
+    "alpinejs": "^3.4.2",
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.21",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "postcss": "^8.4.6",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^3.0.23",
+    "vue": "^3.2.31",
+    "vue-axios": "^3.4.1",
+    "vue-loader": "^17.0.0",
+    "vue-router": "^4.0.14",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "dependencies": {
+    "js": "^0.1.0"
+  },
+  "name": "carapp",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\"></a></p>",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC"
+}
